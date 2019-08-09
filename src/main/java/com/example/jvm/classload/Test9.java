@@ -1,5 +1,6 @@
 package com.example.jvm.classload;
 
+
 import java.lang.reflect.Method;
 
 /**
@@ -27,5 +28,7 @@ public class Test9 {
 
         Method method = clazz1.getDeclaredMethod("setCommon", java.lang.Object.class);
         method.invoke(object1, object2);
+
+
     }
 }
