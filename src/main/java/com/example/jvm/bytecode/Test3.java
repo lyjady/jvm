@@ -24,6 +24,14 @@ public class Test3 {
         System.out.println("Test3.static initializer");
     }
 
+    static {
+        System.out.println("Test3.static initializer2");
+    }
+
+    static {
+        System.out.println("Test3.static initializer3");
+    }
+
     public String getStr() {
         return str;
     }
